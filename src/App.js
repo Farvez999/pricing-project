@@ -1,12 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Pricing from './components/Pricing/Pricing';
 
 function App() {
   return (
     <div className="App">
-      <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <Pricing></Pricing>
     </div>
   );
 }
